@@ -1,0 +1,66 @@
+body {
+background-image: image();
+ padding-left: 0px;
+ margin: 0px;
+}
+
+
+
+.blocks {
+ background-color: rgb(66, 43, 7);
+ height: 100px;
+ position: fixed;
+ width: 2000px;
+ z-index: 50;
+ top: 0px;
+}
+
+.blocks1k {
+ background-color: #1d8b1d;
+ height: 20px;
+ position: fixed;
+ width: 2000px;
+ z-index: 100;
+ top: 0px;
+}
+
+.img {
+ top: 1;
+ width: 84px;
+ margin-left: 0px; margin-top: 15px;
+}
+
+.wd{
+ color: rgb(233, 253, 235);
+font-size: larger;
+text-shadow: rgb(0, 0, 0) 4px 3px 3px;
+}
+
+.dwig{
+ color: rgb(222, 248, 223);
+ font-size: larger;
+ text-shadow: rgb(0, 0, 0) 4px 3px 4px;
+}
+
+.broo {
+ padding: 10px 40px;
+ color: rgba(255, 255, 255, 0.867);
+ background-color: rgba(23, 73, 27, 0.444);
+ border: none;
+ font-size: 15px;
+ cursor: pointer;
+ border-radius: 30px;
+
+}
+
+.broo:hover {
+ background-color: rgba(10, 27, 13, 0.826);
+ color: aliceblue;
+ font-size: 17px;
+
+}
+
+a {
+ text-decoration: none;
+ color: aliceblue;
+}
